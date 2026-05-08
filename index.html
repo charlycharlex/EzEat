@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzEat | Pitch Deck</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="logo.png" alt="EzEat Logo" style="height: 40px; width: auto; object-fit: contain;">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#solucion">Solución</a></li>
+                <li><a href="#producto">Producto</a></li>
+                <li><a href="#diferencia">Diferencia</a></li>
+                <li><a href="#traccion">Tracción</a></li>
+                <li><a href="#mercado">Mercado</a></li>
+                <li><a href="#modelo">Negocio</a></li>
+                <li><a href="#riesgos">Riesgos</a></li>
+                <li><a href="#cierre">Cierre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: HERO -->
+        <section id="hero" class="slide slide-center slide-gradient">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">EzEat</h1>
+                    <p class="hero-tagline">El Sistema Operativo Inteligente (OS) con IA Nativa para la Industria HORECA
+                        en México.</p>
+                    <a href="#traccion" class="btn btn-primary cta-btn">Explora la Tracción <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="hero-visual">
+                    <div class="abstract-orb"></div>
+                    <div class="abstract-orb orb-2"></div>
+                    <img src="mascot.png" alt="EzEat Mascot" class="hero-mascot"
+                        style="position: relative; z-index: 10; max-height: 400px; width: auto; filter: drop-shadow(0 20px 30px rgba(0,0,0,0.5)); animation: float 6s ease-in-out infinite;">
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: EL PROBLEMA -->
+        <section id="problema" class="slide">
+            <div class="container">
+                <h2 class="section-title">La Fragmentación de la Industria HORECA</h2>
+                <div class="split-layout">
+                    <div class="text-content">
+                        <p class="lead-text">El mercado opera con ineficiencia y sistemas desconectados (fragmentación
+                            tecnológica). Los márgenes son cada vez más estrechos y la competencia feroz. La
+                            digitalización básica ya no basta.</p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-xmark text-danger"></i> Sistemas y POS desconectados</li>
+                            <li><i class="fa-solid fa-xmark text-danger"></i> Márgenes operativos estrechos</li>
+                            <li><i class="fa-solid fa-xmark text-danger"></i> Toma de decisiones basada en intuición
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="visual-content">
+                        <div class="chaos-visual">
+                            <div class="floating-card danger-card pos-1"><i class="fa-solid fa-file-excel"></i> Excel
+                                Manual</div>
+                            <div class="floating-card danger-card pos-2"><i class="fa-solid fa-cash-register"></i> POS
+                                Aislado</div>
+                            <div class="floating-card danger-card pos-3"><i class="fa-solid fa-boxes-stacked"></i>
+                                Mermas Altas</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: LA SOLUCIÓN -->
+        <section id="solucion" class="slide slide-alt">
+            <div class="container">
+                <h2 class="section-title text-center">EzEat: Un Sistema Operativo Inteligente con IA Nativa</h2>
+                <p class="center-text lead-text max-w-800 margin-auto text-center">Centralizamos la gestión y
+                    optimizamos procesos en tiempo real, transformando la operación HORECA de reactiva a predictiva.
+                    Sustituimos la intuición manual por inteligencia de datos accionable.</p>
+                <div class="solution-grid">
+                    <div class="glass-card">
+                        <i class="fa-solid fa-brain card-icon"></i>
+                        <h3>IA Accionable</h3>
+                        <p>Motor de decisiones operativas en tiempo real.</p>
+                    </div>
+                    <div class="glass-card">
+                        <i class="fa-solid fa-link card-icon"></i>
+                        <h3>Centralización Total</h3>
+                        <p>Todos los procesos en una única plataforma fluida.</p>
+                    </div>
+                    <div class="glass-card">
+                        <i class="fa-solid fa-chart-line card-icon"></i>
+                        <h3>Operación Predictiva</h3>
+                        <p>Anticípate a la demanda y elimina el desperdicio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: PRODUCTO & IA -->
+        <section id="producto" class="slide">
+            <div class="container">
+                <h2 class="section-title">IA en el Núcleo Operativo</h2>
+                <p class="lead-text">No somos un simple POS. Nuestra tecnología impulsa el motor de decisiones
+                    operativas.</p>
+                <div class="product-layout">
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-box-open"></i></div>
+                            <div>
+                                <h4>Optimización Predictiva de Inventarios</h4>
+                                <p>Reabastecimiento inteligente guiado por modelos de demanda.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                            <div>
+                                <h4>Costeo Dinámico de Recetas</h4>
+                                <p>Actualización en tiempo real basada en fluctuaciones de mercado.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-utensils"></i></div>
+                            <div>
+                                <h4>Planeación Inteligente de Cocina</h4>
+                                <p>Sincronización exacta de tiempos de preparación y entrega.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-cloud"></i></div>
+                            <div>
+                                <h4>Vertical SaaS en la Nube</h4>
+                                <p>Arquitectura moderna, robusta y diseñada para escalar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard-mockup">
+                        <div class="mockup-header">
+                            <div class="mac-dots"><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="mockup-sidebar"></div>
+                            <div class="mockup-content">
+                                <div class="mockup-chart"></div>
+                                <div class="mockup-cards">
+                                    <div class="m-card"></div>
+                                    <div class="m-card"></div>
+                                    <div class="m-card"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: LA DIFERENCIA -->
+        <section id="diferencia" class="slide slide-alt">
+            <div class="container">
+                <h2 class="section-title text-center">Vs. Alternativas Tradicionales</h2>
+                <p class="center-text lead-text max-w-800 margin-auto text-center">Mientras la competencia (POS
+                    tradicionales como Soft Restaurant/Parrot y procesos manuales) es reactiva y fragmentada, nosotros
+                    ofrecemos un sistema operativo integral.</p>
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Característica</th>
+                                <th class="highlight-col">EzEat <i class="fa-solid fa-check-circle"></i></th>
+                                <th>Competencia Tradicional (POS)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Enfoque Principal</td>
+                                <td class="highlight-col"><strong>Sistema Operativo Integral (IA)</strong></td>
+                                <td>Transaccional (Reactivo)</td>
+                            </tr>
+                            <tr>
+                                <td>Inventario</td>
+                                <td class="highlight-col">Predictivo y Dinámico</td>
+                                <td>Manual y Desfasado</td>
+                            </tr>
+                            <tr>
+                                <td>Ecosistema</td>
+                                <td class="highlight-col">Totalmente Conectado</td>
+                                <td>Fragmentado (Apps de 3ros)</td>
+                            </tr>
+                            <tr>
+                                <td>Escalabilidad</td>
+                                <td class="highlight-col">Diseñado para Multi-Unidad</td>
+                                <td>Limitado y Caro de escalar</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: TRACCIÓN ACTUAL -->
+        <section id="traccion" class="slide slide-gradient-alt">
+            <div class="container">
+                <div class="section-badge">Validación - El núcleo de nuestra apuesta</div>
+                <h2 class="section-title">Validación del Mercado HORECA</h2>
+                <div class="traction-grid">
+                    <div class="traction-card glow-card">
+                        <div class="t-icon"><i class="fa-solid fa-comments"></i></div>
+                        <div class="t-number">50</div>
+                        <h4>Entrevistas Cualitativas</h4>
+                        <p>Demanda validada directamente por dueños de negocio.</p>
+                    </div>
+                    <div class="traction-card glow-card">
+                        <div class="t-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+                        <div class="t-number">100%</div>
+                        <h4>Pruebas Piloto Exitosas</h4>
+                        <p>Feedback excelente en la cadena "Que Fresa!! Lab".</p>
+                    </div>
+                    <div class="traction-card glow-card">
+                        <div class="t-icon"><i class="fa-solid fa-users-line"></i></div>
+                        <div class="t-number">Activa</div>
+                        <h4>Lista de Espera</h4>
+                        <p>Pipeline asegurado para el despliegue externo.</p>
+                    </div>
+                    <div class="traction-card glow-card">
+                        <div class="t-icon"><i class="fa-solid fa-trophy"></i></div>
+                        <div class="t-number">IncMty</div>
+                        <h4>Validación de Ecosistema</h4>
+                        <p>Participación destacada en IncMty 2026.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: MERCADO -->
+        <section id="mercado" class="slide">
+            <div class="container">
+                <h2 class="section-title">La Oportunidad en México</h2>
+                <p class="lead-text max-w-800">Dirigido a dueños de restaurantes y marcas multi-unidad que necesitan
+                    escalabilidad real y eficiencia operativa.</p>
+                <div class="market-visual">
+                    <div class="circles-container">
+                        <div class="circle tam">
+                            <span>TAM</span>
+                            <small>Mercado Total HORECA (LatAm)</small>
+                        </div>
+                        <div class="circle sam">
+                            <span>SAM</span>
+                            <small>Restaurantes Multi-unidad Mex</small>
+                        </div>
+                        <div class="circle som">
+                            <span>SOM</span>
+                            <small>Target de Adopción Temprana</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 8: MODELO DE NEGOCIO -->
+        <section id="modelo" class="slide slide-alt">
+            <div class="container">
+                <h2 class="section-title text-center">SaaS ROI-Centric</h2>
+                <p class="center-text lead-text max-w-800 margin-auto text-center">Modelo SaaS de suscripción
+                    mensual/anual. El precio escala según sucursales. Monetizamos el ROI directo.</p>
+                <div class="business-model">
+                    <div class="bm-card">
+                        <i class="fa-solid fa-money-bill-trend-up bm-icon"></i>
+                        <h3>Suscripción SaaS</h3>
+                        <p>Modelo recurrente que crece en valor conforme abres más sucursales.</p>
+                    </div>
+                    <div class="bm-card">
+                        <i class="fa-solid fa-chart-pie bm-icon"></i>
+                        <h3>Monetización del ROI</h3>
+                        <p>Reducción drástica de mermas y optimización inteligente de staff.</p>
+                    </div>
+                    <div class="bm-card">
+                        <i class="fa-solid fa-rocket bm-icon"></i>
+                        <h3>Pilotos Rápidos</h3>
+                        <p>Iniciamos despliegues de pilotos pagados demostrando valor en 4 semanas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 9: RIESGOS & MITIGACIÓN -->
+        <section id="riesgos" class="slide">
+            <div class="container">
+                <h2 class="section-title">Abordando el Mayor Reto: Adopción</h2>
+                <div class="risk-mitigation">
+                    <div class="risk-box">
+                        <div class="risk-header">
+                            <i class="fa-solid fa-triangle-exclamation text-danger"></i>
+                            <h3>El Riesgo</h3>
+                        </div>
+                        <p>El mayor riesgo es la <strong>resistencia al cambio cultural</strong>. El personal suele
+                            estar profundamente arraigado a procesos manuales y sistemas obsoletos.</p>
+                    </div>
+                    <div class="arrow-connector"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+                    <div class="mitigation-box">
+                        <div class="risk-header">
+                            <i class="fa-solid fa-shield-halved text-success"></i>
+                            <h3>Nuestra Mitigación</h3>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-check text-success"></i> Interfaz ultra-simplificada, 0 fricción.
+                            </li>
+                            <li><i class="fa-solid fa-check text-success"></i> Automatización total de integraciones.
+                            </li>
+                            <li><i class="fa-solid fa-check text-success"></i> "Quick wins" de ahorro desde la semana 1.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 10: EL RETO & CIERRE -->
+        <section id="cierre" class="slide slide-gradient final-slide">
+            <div class="container text-center">
+                <h2 class="section-title">Listos para The Challenge</h2>
+                <p class="lead-text max-w-800 margin-auto">Estamos en el momento crítico de nuestro lanzamiento inicial
+                    con clientes externos. Buscamos someter a EzEat al rigor de expertos, mentoría para escalar nuestra
+                    arquitectura de IA y aliados clave para potenciar nuestra tracción.</p>
+                <div class="final-cta">
+                    <div class="logo large-logo" style="margin-bottom: 2rem;">
+                        <img src="logo.png" alt="EzEat Logo" style="height: 80px; width: auto; object-fit: contain;">
+                    </div>
+                    <div class="contact-info">
+                        <p>Únete a la evolución HORECA</p>
+                    </div>
+                    <button class="btn btn-primary cta-btn-large pulse-animation"
+                        onclick="window.location.href='mailto:founder@ezeat.com'">Contáctanos <i
+                            class="fa-solid fa-envelope"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
